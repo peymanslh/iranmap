@@ -1,0 +1,59 @@
+body {
+	direction: rtl;
+}
+h1 {
+	text-align: center;
+	font-family: Arial, Tahoma;
+	color: #8D99AE;
+}
+#doc p {
+	font-family: Arial, Tahoma;
+	color: #8D99AE;
+	padding: 100px 10px;
+}
+
+/* Hide red background */
+.svg-wrapper svg #Background path {
+	display: none;
+	fill: #EF233C;
+}
+
+/* Making SVG responsive */
+.svg-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+@media (max-width: 1024px) {
+	.svg-wrapper {
+		width: 100%;
+	}
+}
+.svg-wrapper svg {
+	display: block;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+/* Change fill color and Adding animation */
+.svg-wrapper svg .links path {
+	fill: #2B2D42;
+	transition: .6s fill;
+}
+.svg-wrapper svg .links path:hover {
+	fill: #513B56;
+}
+
+/* Change text color */
+.svg-wrapper svg #Names_Vector path {
+	fill: #EDF2F4;
+}
+
+/* Change sea fill color */
+.svg-wrapper svg #States #urumia-lake_1_,
+.svg-wrapper svg #States #persian-gulf_1_,
+.svg-wrapper svg #States #khazar_1_ {
+	fill: #00A8E8;
+}
+
