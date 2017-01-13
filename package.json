@@ -1,0 +1,26 @@
+{
+  "name": "iransvg",
+  "version": "0.0.1",
+  "description": "SVG map of Iran",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peymanslh/iranmap.git"
+  },
+  "author": "@peymanslh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peymanslh/iranmap/issues"
+  },
+  "homepage": "https://github.com/peymanslh/iranmap#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
