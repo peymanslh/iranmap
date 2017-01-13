@@ -12,6 +12,11 @@ $province-text-color: #fff;
 }
 .map-province {
   fill: $province-color;
+  transition: fill 0.3s ease;
+
+  &:hover {
+    fill: $hover-color;
+  }
 }
 
 .map-sea {
@@ -22,65 +27,52 @@ $province-text-color: #fff;
   fill: $island-color;
 }
 
-.map-names {
 
-  .map-sea-names path {
-    fill: $sea-text-color;
-  }
+.map-sea-names {
+  fill: $sea-text-color;
+}
 
-  .map-province-names path {
-    fill: $province-text-color;
-  }
+.map-province-names {
+  fill: $province-text-color;
 }
 
 .map-link {
-  opacity: 1;
-  path {
-    transition: fill 0.6s ease;
 
-    &:hover {
-      fill: $hover-color;
-    }
+}
+
+.map-province {
+
+  .khorasan-r,
+  .khorasan-j,
+  .kerman,
+  .azarbaijan-sh,
+  .azarbaijan-gh,
+  .ardebil,
+  .sistan,
+  .semnan,
+  .hormozgan,
+  .yazd,
+  .khorasan-sh,
+  .isfahan,
+  .fars,
+  .khoozestan,
+  .tehran,
+  .ghom,
+  .kermanshah,
+  .kordestan,
+  .zanjan,
+  .gilan,
+  .lorestan,
+  .markazi,
+  .hamedan,
+  .mazandaran,
+  .ilam,
+  .ghazvin,
+  .alborz,
+  .booshehr,
+  .kohkilooyeh,
+  .charmahal,
+  .golestan {
+
   }
-}
-
-
-#urumia-lake,
-#persian-gulf,
-#khazar {
-
-}
-
-#khorasan-r,
-#khorasan-j,
-#kerman,
-#azarbaijan-sh,
-#azarbaijan-gh,
-#ardebil,
-#sistan,
-#semnan,
-#hormozgan,
-#yazd,
-#khorasan-sh,
-#isfahan,
-#fars,
-#khoozestan,
-#tehran,
-#ghom,
-#kermanshah,
-#kordestan,
-#zanjan,
-#gilan,
-#lorestan,
-#markazi,
-#hamedan,
-#mazandaran,
-#ilam,
-#ghazvin,
-#alborz,
-#booshehr,
-#kohkilooyeh,
-#charmahal,
-#golestan {
-
 }
