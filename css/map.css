@@ -10,6 +10,12 @@
 .map-island {
   fill: #aaa; }
 
+.map-names .map-sea-names path {
+  fill: #333; }
+
+.map-names .map-province-names path {
+  fill: #fff; }
+
 .map-link {
   opacity: 1; }
   .map-link path {

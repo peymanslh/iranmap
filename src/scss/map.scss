@@ -4,6 +4,9 @@ $island-color: #aaa;
 $province-color: #444; // #2B2D42
 $hover-color: #666;
 
+$sea-text-color: #333;
+$province-text-color: #fff;
+
 .map-border {
   fill: $border-color;
 }
@@ -17,6 +20,17 @@ $hover-color: #666;
 
 .map-island {
   fill: $island-color;
+}
+
+.map-names {
+
+  .map-sea-names path {
+    fill: $sea-text-color;
+  }
+
+  .map-province-names path {
+    fill: $province-text-color;
+  }
 }
 
 .map-link {
