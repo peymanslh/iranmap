@@ -1,2 +1,18 @@
-.hello {
-  background-color: #fff; }
+.map-border {
+  fill: #ccc; }
+
+.map-province {
+  fill: #444; }
+
+.map-sea {
+  fill: #00A8E8; }
+
+.map-island {
+  fill: #aaa; }
+
+.map-link {
+  opacity: 1; }
+  .map-link path {
+    transition: fill 0.6s ease; }
+    .map-link path:hover {
+      fill: #666; }

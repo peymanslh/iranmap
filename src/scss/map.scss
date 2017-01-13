@@ -1,3 +1,72 @@
-.hello {
-  background-color: #fff;
+$border-color: #ccc;
+$sea-color: #00A8E8;
+$island-color: #aaa;
+$province-color: #444; // #2B2D42
+$hover-color: #666;
+
+.map-border {
+  fill: $border-color;
+}
+.map-province {
+  fill: $province-color;
+}
+
+.map-sea {
+  fill: $sea-color;
+}
+
+.map-island {
+  fill: $island-color;
+}
+
+.map-link {
+  opacity: 1;
+  path {
+    transition: fill 0.6s ease;
+
+    &:hover {
+      fill: $hover-color;
+    }
+  }
+}
+
+
+#urumia-lake,
+#persian-gulf,
+#khazar {
+
+}
+
+#khorasan-r,
+#khorasan-j,
+#kerman,
+#azarbaijan-sh,
+#azarbaijan-gh,
+#ardebil,
+#sistan,
+#semnan,
+#hormozgan,
+#yazd,
+#khorasan-sh,
+#isfahan,
+#fars,
+#khoozestan,
+#tehran,
+#ghom,
+#kermanshah,
+#kordestan,
+#zanjan,
+#gilan,
+#lorestan,
+#markazi,
+#hamedan,
+#mazandaran,
+#ilam,
+#ghazvin,
+#alborz,
+#booshehr,
+#kohkilooyeh,
+#charmahal,
+#golestan {
+
 }
