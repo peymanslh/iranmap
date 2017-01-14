@@ -7,4 +7,4 @@
 <br>
 ###Copyright and License
 
-Copyright (c) 2015 @peymanslh - Released under [MIT license](https://github.com/peymanslh/iranmap/blob/master/LICENSE).
+Copyright (c) @peymanslh - Released under [MIT license](https://github.com/peymanslh/iranmap/blob/master/LICENSE).
