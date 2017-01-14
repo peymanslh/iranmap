@@ -351,3 +351,30 @@ table {
 td,
 th {
   padding: 0; }
+
+body {
+  background-color: #1A1A1C; }
+
+h1.title {
+  color: #CA466B;
+  text-align: center; }
+  h1.title span {
+    border: 2px solid #CA466B;
+    padding: 5px 15px; }
+
+.footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #364669; }
+  .footer a {
+    color: #364669;
+    text-decoration: none; }
+
+.svg-wrapper {
+  width: 70%;
+  margin: 0 auto; }
+
+@media (max-width: 1024px) {
+  .svg-wrapper {
+    width: 100%; } }

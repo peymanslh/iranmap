@@ -1,12 +1,13 @@
-$border-color: #ccc;
-$sea-color: #00A8E8;
-$island-color: #aaa;
-$province-color: #444; // #2B2D42
-$hover-color: #666;
+@import 'var';
 
-$sea-text-color: #333;
-$province-text-color: #fff;
 
+.svg-wrapper svg {
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
 .map-border {
   fill: $border-color;
 }
