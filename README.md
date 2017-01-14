@@ -2,7 +2,7 @@
 
 ## SVG map of Iran
 
-
+![Screen Shot](https://raw.githubusercontent.com/peymanslh/iranmap/master/ScreenShot.png)
 
 <br>
 ###Copyright and License
